@@ -18,7 +18,7 @@ const  Navbar = ({ handleContactClick }) => {
         }
       };
     return ( 
-        <div className="flex justify-between items-center fixed top-0 left-0 right-0 z-50 py-2 mx-2  md:mx-5 rounded-full bg-transparent mt-4 px-4 text-white font-Montserrat ">
+        <div className="flex justify-between items-center fixed top-0 left-0 right-0 z-50 py-2 mx-2  md:mx-5 rounded-full bg-transparent mt-4 px-2 text-white font-Montserrat ">
             <div>
                 {/* <img className="w-40"  size={20} alt="logo" /> */}
                 <div className="flex align-middle ">
