@@ -40,7 +40,7 @@ const  Navbar = ({ handleContactClick }) => {
                 </ul>
             </div>
 
-            <button className="block md:hidden p-2 hover:underline hover:cursor-pointer bg-[#847539] rounded-lg text-xs">GET A QUOTE</button>
+            <button className="block md:hidden p-4 hover:underline hover:cursor-pointer bg-[#847539] rounded-lg text-xs">GET A QUOTE</button>
 
             <div onClick={handleNav} className="mobile:block md:hidden 2xl:hidden lg:hidden xl:hidden z-20">
                 {nav ? <AiOutlineClose className="text-white z-80" size={20}/> : <AiOutlineMenu className="white " size={20}/>} 
