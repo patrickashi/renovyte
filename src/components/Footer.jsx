@@ -2,7 +2,7 @@ import React from "react"
 
 const Footer = () => {
     return (
-        <div className="  duration-200 text-white border-t   border-gray-300">
+        <div className="  duration-200 text-white ">
             <div className="flex gap-16 flex-col px-2 md:px-10 lg:px-16 py-10 md:flex-row bg-[#847539] justify-between pb-4">
                 <div>
                     <div className="flex align-middle hover:text-black ">
