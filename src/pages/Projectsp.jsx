@@ -10,7 +10,7 @@ const Projectsp = () => {
             <div className="flex flex-col md:flex-row gap-4">
                 <div>
                     <img src={kitchendesign} alt="img" className="w-full md:w-[600px] h-[450px] object-cover rounded-lg" />
-                    <p className="mt-4 font-semibold">Modernist Kitchen Remodeling</p>
+                    <p className="mt-4 font-semibold mb-10 md:mb-0">Modernist Kitchen Remodeling</p>
                 </div>
                 <div>
                     <img src={cottagedesign} alt="img" className="w-full md:w-[600px] h-[450px] object-cover rounded-lg" />

@@ -74,10 +74,18 @@ const  Navbar = ({ handleContactClick, location }) => {
                 </div>
 
                 <ul className="flex flex-col p-4 my-6 gap-16 text-black">
-                    <li className="p-4 border-l border-blue-600" onClick={() => { handleLinkClick() } }><a href="#services">SERVICES</a></li>
-                    <li className="p-4 border-l border-green-600" onClick={() => { handleLinkClick() } }><a href="#about">PROJECTS</a></li>
-                    <li className="p-4 border-l border-red-600" onClick={() => { handleLinkClick() } }><a href="#faq">ABOUT US</a></li>
-                    <li className="p-4 border-l border-pink-600" onClick={() => { handleContactClick(); handleLinkClick(); }}><a href="#contactus">GET A QUOTE</a></li>
+                    <li className="p-4 border-l border-blue-600" onClick={() => { handleLinkClick() } }>
+                    <Link to="/Servicesp">SERVICES</Link>
+                    </li>
+                    <li className="p-4 border-l border-green-600" onClick={() => { handleLinkClick() } }>
+                        <Link to="/Projectsp">PROJECTS</Link>
+                    </li>
+                    <li className="p-4 border-l border-red-600" onClick={() => { handleLinkClick() } }>
+                        <Link to="/Aboutusp">ABOUT US</Link> 
+                    </li>
+                    <li className="p-4 border-l border-pink-600" onClick={() => { handleLinkClick() }}>
+                        <Link to="/Quotep">GET A QUOTE</Link>
+                    </li>
                 </ul>
 
                
